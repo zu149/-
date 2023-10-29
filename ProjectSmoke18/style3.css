@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    background:rgb(20, 20, 20);
+}
+
+section {
+    margin: 0 auto;
+    min-height: 700px;
+    width: 1400px;
+    background:black;
+}
+
+
+.sector1 {
+    min-height: 900px;
+    /* background:teal; */
+}
+
+
+nav {
+    background: rgba(110, 110, 110, 0.2);
+    height: 50px;
+    width: 1400px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+.headS1 {
+    font-family: "Segoe Script", cursive;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    user-select: none;
+}
+
+.sector1Grid {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 325px);
+    /* border: 1px solid red; */
+    color: white;
+    gap: 30px;
+}
+
+.GridImg {
+    width: 325px;
+    height: 325px;
+}
+
+.redH {
+    background: red;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sector1GridTxt {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+/* Sector 2 */
+
+
+.sector2H {
+    font-family: "Segoe Script", cursive;
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.sector2Grid {
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 400px);
+    gap: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.hookah {
+    height: 400px;
+}
+
+
+
+.leftHookah {
+    float: right;
+}
+
+/* Sector 3 */
+
+.headerSector3 {
+    color:orange;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Segoe Script", cursive;
+}
+
+.gridSector3 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 280px);
+    padding-bottom: 50px;
+}
+
+.itemsSector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridImgS3 {
+    width: 198px;
+    height: 278px;
+}
+
+
+.gridImgS3_8 {
+    width: 260px;
+    height: 278px;
+}
+
+.textSector3Info {
+    color:white;
+    font-size: 22px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    height: 100px;
+}
+
+.prem {
+    background: red;
+}
+
+
+/* Footer */
+
+footer {
+    margin: 0 auto;
+    width: 1400px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
